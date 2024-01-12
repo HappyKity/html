@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 내부(internal) css를 외부(external) css로 분리-->
+    <link rel="stylesheet" href="005.css" />
+    <title>선택자</title>
+    <style>
+        /* 태그 선택자(1), 클래스 선택자(10), 아이디 선택자(10) */
+        /* 전체 선택자(*) : 우선순위 0. css초기화(reset) */
+        /* css 파일을 독립 시켜서 사용가능 */
+    </style>
+</head>
+
+<body>
+    <!-- 
+        html 작성자
+        CSS, 그래픽 : web 퍼블리셔
+        자바스크립트 : frontend 웹 프로그래밍
+     -->
+    <div class="box">
+
+        <p class="underline" id="fontcolor">우리나라 좋은나라</p>
+        <p class="underline">우리나라 좋은나라</p>
+        <p class="underline">우리나라 좋은나라</p>
+        <p class="underline">우리나라 좋은나라</p>
+        <p class="underline">우리나라 좋은나라</p>
+        <span class="underline">우리나라 좋은나라</span>
+
+    </div>
+
+    <div class='box'>
+        <p>우리나라 좋은나라 1</p>
+        <p>우리나라 좋은나라 2</p>
+    </div>
+    <div class='box'>
+        <p>우리나라 좋은나라 3</p>
+        <p class='font_red'>우리나라 좋은나라 4</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+
+p {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: overline;
+  text-align: center;
+}
+
+spen.underline {
+  text-decoration: none;
+  text-align: center;
+  width: 300px;
+}
+
+#fontcolor {
+  color: aqua;
+}
+
+.box {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.font_red {
+  color: red;
+}
