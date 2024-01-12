@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 태그 선택자 (tag selector) */
+        p {
+            background-color: yellow;
+            width: 200px;
+            /* 너비를 넘는 남은 오른쪽 공간이 margin 으로 잡힌다. */
+            margin: 5px auto;
+            text-align: center;
+        }
+
+        span {
+            border: 1px solid red;
+            width: 200px;
+        }
+
+        body {
+            border: 1px solid red;
+            background-color: ;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        block 요소는 한줄을 하나씩 배치된다
+        inline 요소는 내용의 너비 만큼 차지한다.
+     -->
+    <p>우리나라</p>
+    <p>좋은 나라</p>
+    <span>우리나라</span>
+    <span>우리나라2</span>
+</body>
+
+</html>
