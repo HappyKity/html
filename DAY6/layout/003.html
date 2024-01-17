@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시멘틱 태그를 이용한 레이아웃</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #app {
+            width: 600px;
+            margin: 0 auto;
+            border: 1px solid black;
+        }
+
+        header,
+        nav,
+        footer {
+            height: 50px;
+            border: 1px solid skyblue;
+        }
+
+        aside {
+            height: 200px;
+            width: 100px;
+            background-color: deeppink;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        section {
+            min-height: 600px;
+            background-color: lightgray;
+            float: left;
+            width: 398px;
+        }
+
+        main {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            회사로고
+        </header>
+        <nav>메인메뉴</nav>
+        <main>
+            <aside class="left">왼쪽</aside>
+            <section>
+                특수문자 작다 : &lt;
+                공백 : &nbsp;
+            </section>
+            <aside class="right">오른쪽</aside>
+        </main>
+        <footer> 회사 부가정보
+            <!-- &copy html entity code : 특수문자 넣는 방법 -->
+            copyright &copy; 2024
+        </footer>
+    </div>
+</body>
+
+</html>

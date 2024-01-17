@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연습</title>
+    <style>
+        /* prettier - ignore */
+        * {
+            box-sizing: border-box;
+        }
+
+        #app {
+            margin: 0 auto;
+            width: 800px;
+        }
+
+        header,
+        footer,
+        nav {
+            width: 800px;
+            height: 50px;
+            border: 1px solid black;
+        }
+
+        main {
+            min-height: 700px;
+            border: solid 1px black;
+            width: 800px;
+            overflow: hidden;
+
+        }
+
+        .left {
+            width: 100px;
+            height: 300px;
+            background-color: bisque;
+            float: left;
+            margin-top: 50px;
+        }
+
+        .right {
+            width: 100px;
+            height: 300px;
+            background-color: bisque;
+            float: right;
+            margin-top: 50px;
+        }
+
+        section {
+            float: left;
+            width: 598px;
+            border: 1px solid black;
+            min-height: 700px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+
+        <header>회사제목</header>
+        <nav>메뉴</nav>
+        <main>
+            <aside class="left">왼쪽</aside>
+            <section>내용 내용 내용</section>
+            <aside class="right">오른쪽</aside>
+        </main>
+        <footer>부가정보</footer>
+    </div>
+</body>
+
+</html>

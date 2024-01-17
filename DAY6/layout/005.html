@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 전체선택자(우선운위 0). css를 reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #app {
+            width: 800px;
+            height: 1000px;
+            margin: 0 auto;
+        }
+
+        nav ul {
+            overflow: hidden;
+        }
+
+        nav li {
+            border: 1px solid aquamarine;
+            background-color: aquamarine;
+            width: 180px;
+            text-align: center;
+            list-style: none;
+            float: left;
+            height: 50px;
+            margin-left: 5px;
+            line-height: 50px;
+            border-radius: 10px;
+        }
+
+        nav li:hover {
+            background-color: white;
+            border: 1px solid aquamarine;
+            border-radius: 10px;
+        }
+
+        header,
+        nav,
+        footer {
+            width: 800px;
+            height: 50px;
+        }
+
+        header {
+            background-color: gray;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        nav {
+            padding-left: 25px;
+        }
+
+        aside {
+            width: 100px;
+            height: 300px;
+            background-color: lightgray;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .left {
+            float: left;
+        }
+
+        section {
+            min-height: 800px;
+            width: 598;
+            float: left;
+        }
+
+        footer {
+            background-color: lightgray;
+        }
+
+        main {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <header></header>
+        <nav>
+            <ul>
+                <li>홈</li>
+                <li>로그인</li>
+                <li>소개</li>
+                <li>인사말</li>
+            </ul>
+        </nav>
+        <main>
+            <aside class="left">광고</aside>
+            <section>본문</section>
+            <aside class="right">광고</aside>
+        </main>
+        <footer>꼬리말</footer>
+    </div>
+</body>
+
+</html>
